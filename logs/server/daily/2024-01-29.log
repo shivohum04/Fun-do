@@ -128,3 +128,31 @@ error:
       method - GET 
       IP - ::1
      {"timestamp":"2024-01-29T05:06:06.845Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-01-29T05:39:51.055Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-29T06:17:06.358Z"}
+info: Connected to the database. {"timestamp":"2024-01-29T06:17:06.376Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-29T06:26:47.623Z"}
+info: Connected to the database. {"timestamp":"2024-01-29T06:26:47.644Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: email: Path `email` is required.
+    at model.Document.invalidate (/Users/shiv/Desktop/node1/project1/node_modules/mongoose/lib/document.js:2788:32)
+    at /Users/shiv/Desktop/node1/project1/node_modules/mongoose/lib/document.js:2580:17
+    at /Users/shiv/Desktop/node1/project1/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-29T06:26:58.210Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-29T06:28:49.972Z"}
+info: Connected to the database. {"timestamp":"2024-01-29T06:28:49.984Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-29T08:39:13.915Z"}
+info: Connected to the database. {"timestamp":"2024-01-29T08:39:13.952Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-29T08:51:42.922Z"}
+info: Connected to the database. {"timestamp":"2024-01-29T08:51:42.936Z"}

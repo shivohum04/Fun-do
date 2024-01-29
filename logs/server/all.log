@@ -209,3 +209,188 @@ error:
       method - GET 
       IP - ::1
      {"timestamp":"2024-01-29T05:06:06.845Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-01-29T05:39:51.055Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-29T06:17:06.358Z"}
+info: Connected to the database. {"timestamp":"2024-01-29T06:17:06.376Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-29T06:26:47.623Z"}
+info: Connected to the database. {"timestamp":"2024-01-29T06:26:47.644Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: email: Path `email` is required.
+    at model.Document.invalidate (/Users/shiv/Desktop/node1/project1/node_modules/mongoose/lib/document.js:2788:32)
+    at /Users/shiv/Desktop/node1/project1/node_modules/mongoose/lib/document.js:2580:17
+    at /Users/shiv/Desktop/node1/project1/node_modules/mongoose/lib/schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-29T06:26:58.210Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-29T06:28:49.972Z"}
+info: Connected to the database. {"timestamp":"2024-01-29T06:28:49.984Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-29T08:39:13.915Z"}
+info: Connected to the database. {"timestamp":"2024-01-29T08:39:13.952Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-29T08:51:42.922Z"}
+info: Connected to the database. {"timestamp":"2024-01-29T08:51:42.936Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-29T18:46:57.474Z"}
+info: Connected to the database. {"timestamp":"2024-01-29T18:46:57.510Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-29T19:03:26.134Z"}
+info: Connected to the database. {"timestamp":"2024-01-29T19:03:26.161Z"}
+error: 
+    status - 500 
+    message - ReferenceError: loginUser is not defined
+    at _callee7$ (/Users/shiv/Desktop/node1/project1/src/controllers/user.controller.js:131:31)
+    at tryCatch (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at loginUserController (/Users/shiv/Desktop/node1/project1/src/controllers/user.controller.js:129:33)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/shiv/Desktop/node1/project1/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at /Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (/Users/shiv/Desktop/node1/project1/node_modules/raw-body/index.js:231:16)
+    at done (/Users/shiv/Desktop/node1/project1/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/Users/shiv/Desktop/node1/project1/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-29T19:04:21.707Z"}
+error: 
+    status - 500 
+    message - ReferenceError: loginUser is not defined
+    at _callee7$ (/Users/shiv/Desktop/node1/project1/src/controllers/user.controller.js:131:31)
+    at tryCatch (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at loginUserController (/Users/shiv/Desktop/node1/project1/src/controllers/user.controller.js:129:33)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/route.js:144:13)
+    at Route.dispatch (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/route.js:114:3)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:284:15
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/shiv/Desktop/node1/project1/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at /Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (/Users/shiv/Desktop/node1/project1/node_modules/raw-body/index.js:231:16)
+    at done (/Users/shiv/Desktop/node1/project1/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/Users/shiv/Desktop/node1/project1/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-29T19:07:04.922Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-29T19:09:41.421Z"}
+info: Connected to the database. {"timestamp":"2024-01-29T19:09:41.437Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee7$ (/Users/shiv/Desktop/node1/project1/src/services/user.service.js:67:43)
+    at tryCatch (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-29T19:09:49.847Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-29T19:10:33.308Z"}
+info: Connected to the database. {"timestamp":"2024-01-29T19:10:33.319Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee7$ (/Users/shiv/Desktop/node1/project1/src/services/user.service.js:67:43)
+    at tryCatch (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-29T19:10:41.726Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-29T19:15:39.748Z"}
+info: Connected to the database. {"timestamp":"2024-01-29T19:15:39.771Z"}
+error: 
+    status - 500 
+    message - Error: Invalid credentials
+    at _callee7$ (/Users/shiv/Desktop/node1/project1/src/services/user.service.js:75:11)
+    at tryCatch (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-29T19:16:46.636Z"}
