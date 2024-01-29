@@ -1,0 +1,170 @@
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1872:16)
+    at listenInCluster (node:net:1920:12)
+    at Server.listen (node:net:2008:7)
+    at Function.listen (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/application.js:635:24)
+    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/src/index.js:37:5)
+    at Module._compile (node:internal/modules/cjs/loader:1375:14)
+    at Module._compile (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1434:10)
+    at Object.newLoader [as .js] (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Function.runMain (node:internal/modules/run_main:142:12)
+    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1375:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1434:10)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Thu Jan 25 2024 15:29:05 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-48,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[23.3291015625,13.6982421875,7.3837890625],"uptime":1628508},"process":{"argv":["node","/Users/shiv/Desktop/node1/project1/src/index.js"],"cwd":"/Users/shiv/Desktop/node1/project1","execPath":"/opt/homebrew/Cellar/node/21.5.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":18275021,"external":21263440,"heapTotal":88489984,"heapUsed":67184192,"rss":141934592},"pid":94562,"uid":501,"version":"v21.5.0"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1872:16)\n    at listenInCluster (node:net:1920:12)\n    at Server.listen (node:net:2008:7)\n    at Function.listen (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/application.js:635:24)\n    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/src/index.js:37:5)\n    at Module._compile (node:internal/modules/cjs/loader:1375:14)\n    at Module._compile (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1434:10)\n    at Object.newLoader [as .js] (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.runMain (node:internal/modules/run_main:142:12)\n    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1375:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1434:10)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)\n    at node:internal/main/run_main_module:28:49","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1872,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1920,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":2008,"method":"listen","native":false},{"column":24,"file":"/Users/shiv/Desktop/node1/project1/node_modules/express/lib/application.js","function":"Function.listen","line":635,"method":"listen","native":false},{"column":5,"file":"/Users/shiv/Desktop/node1/project1/src/index.js","function":null,"line":37,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1375,"method":"_compile","native":false},{"column":24,"file":"/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1434,"method":".js","native":false},{"column":7,"file":"/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1206,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1022,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":142,"method":"runMain","native":false},{"column":12,"file":"/Users/shiv/Desktop/node1/project1/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1375,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1434,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1206,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1022,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":142,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+info: ::1 - - [25/Jan/2024:10:02:58 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.1 Safari/605.1.15"
+
+info: ::1 - - [25/Jan/2024:10:06:44 +0000] "GET /user HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [25/Jan/2024:10:07:06 +0000] "GET /users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [25/Jan/2024:10:07:15 +0000] "GET /users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [25/Jan/2024:10:07:24 +0000] "GET /users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [25/Jan/2024:10:10:01 +0000] "GET /api/v1 HTTP/1.1" 200 9 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [25/Jan/2024:10:10:14 +0000] "GET /api/v1/users HTTP/1.1" 200 65 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [25/Jan/2024:10:14:03 +0000] "POST /api/v1/users HTTP/1.1" 201 192 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:31:38 +0000] "GET /api/v1 HTTP/1.1" 200 9 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:31:46 +0000] "GET /api/v1/users HTTP/1.1" 200 199 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:33:14 +0000] "POST /api/v1/users HTTP/1.1" 201 196 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:18:33:23 +0000] "GET /api/v1/users HTTP/1.1" 200 338 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:20:55:40 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jan/2024:20:55:40 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jan/2024:20:55:42 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jan/2024:20:55:46 +0000] "GET /api/v1/user HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jan/2024:20:55:57 +0000] "GET /api/v1/users HTTP/1.1" 200 338 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jan/2024:20:56:05 +0000] "GET /api/v1/login HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jan/2024:20:56:18 +0000] "GET /api/v1/users/login HTTP/1.1" 400 56 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jan/2024:20:56:31 +0000] "GET /api/v1/users/register HTTP/1.1" 400 56 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [28/Jan/2024:20:59:47 +0000] "POST /api/v1/users/register HTTP/1.1" 500 31 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:21:00:38 +0000] "POST /api/v1/users/register HTTP/1.1" 500 31 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:21:04:09 +0000] "POST /api/v1/users/register HTTP/1.1" 500 33 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [28/Jan/2024:21:04:33 +0000] "POST /api/v1/users/register HTTP/1.1" 500 31 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:04:37:40 +0000] "POST /api/v1/users/register HTTP/1.1" 500 31 "-" "PostmanRuntime/7.36.1"
+
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:469:13)
+    at routes (/Users/shiv/Desktop/node1/project1/src/routes/index.js:14:10)
+    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/src/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1375:14)
+    at Module._compile (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1434:10)
+    at Object.newLoader [as .js] (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Function.runMain (node:internal/modules/run_main:142:12)
+    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1375:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1434:10)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Mon Jan 29 2024 10:13:20 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.7529296875,1.7529296875,1.85791015625],"uptime":1955163},"process":{"argv":["node","/Users/shiv/Desktop/node1/project1/src/index.js"],"cwd":"/Users/shiv/Desktop/node1/project1","execPath":"/opt/homebrew/Cellar/node/21.5.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":18274211,"external":21244139,"heapTotal":91848704,"heapUsed":59797504,"rss":144883712},"pid":14341,"uid":501,"version":"v21.5.0"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:469:13)\n    at routes (/Users/shiv/Desktop/node1/project1/src/routes/index.js:14:10)\n    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/src/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1375:14)\n    at Module._compile (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1434:10)\n    at Object.newLoader [as .js] (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.runMain (node:internal/modules/run_main:142:12)\n    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1375:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1434:10)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)\n    at node:internal/main/run_main_module:28:49","trace":[{"column":13,"file":"/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"/Users/shiv/Desktop/node1/project1/src/routes/index.js","function":"routes","line":14,"method":null,"native":false},{"column":38,"file":"/Users/shiv/Desktop/node1/project1/src/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1375,"method":"_compile","native":false},{"column":24,"file":"/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1434,"method":".js","native":false},{"column":7,"file":"/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1206,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1022,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":142,"method":"runMain","native":false},{"column":12,"file":"/Users/shiv/Desktop/node1/project1/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1375,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1434,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1206,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1022,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":142,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:469:13)
+    at routes (/Users/shiv/Desktop/node1/project1/src/routes/index.js:14:10)
+    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/src/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1375:14)
+    at Module._compile (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1434:10)
+    at Object.newLoader [as .js] (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Function.runMain (node:internal/modules/run_main:142:12)
+    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1375:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1434:10)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Mon Jan 29 2024 10:13:34 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.72705078125,1.748046875,1.853515625],"uptime":1955177},"process":{"argv":["node","/Users/shiv/Desktop/node1/project1/src/index.js"],"cwd":"/Users/shiv/Desktop/node1/project1","execPath":"/opt/homebrew/Cellar/node/21.5.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":18274207,"external":21243392,"heapTotal":93683712,"heapUsed":52776872,"rss":148684800},"pid":14362,"uid":501,"version":"v21.5.0"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:469:13)\n    at routes (/Users/shiv/Desktop/node1/project1/src/routes/index.js:14:10)\n    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/src/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1375:14)\n    at Module._compile (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1434:10)\n    at Object.newLoader [as .js] (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.runMain (node:internal/modules/run_main:142:12)\n    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1375:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1434:10)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)\n    at node:internal/main/run_main_module:28:49","trace":[{"column":13,"file":"/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"/Users/shiv/Desktop/node1/project1/src/routes/index.js","function":"routes","line":14,"method":null,"native":false},{"column":38,"file":"/Users/shiv/Desktop/node1/project1/src/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1375,"method":"_compile","native":false},{"column":24,"file":"/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1434,"method":".js","native":false},{"column":7,"file":"/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1206,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1022,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":142,"method":"runMain","native":false},{"column":12,"file":"/Users/shiv/Desktop/node1/project1/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1375,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1434,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1206,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1022,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":142,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: uncaughtException: Router.use() requires a middleware function but got a Object
+TypeError: Router.use() requires a middleware function but got a Object
+    at Function.use (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:469:13)
+    at routes (/Users/shiv/Desktop/node1/project1/src/routes/index.js:14:10)
+    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/src/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1375:14)
+    at Module._compile (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1434:10)
+    at Object.newLoader [as .js] (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Function.runMain (node:internal/modules/run_main:142:12)
+    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1375:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1434:10)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Mon Jan 29 2024 10:16:15 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[1.9130859375,1.88134765625,1.89111328125],"uptime":1955338},"process":{"argv":["node","/Users/shiv/Desktop/node1/project1/src/index.js"],"cwd":"/Users/shiv/Desktop/node1/project1","execPath":"/opt/homebrew/Cellar/node/21.5.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":18274213,"external":21244141,"heapTotal":91324416,"heapUsed":60265656,"rss":145457152},"pid":14790,"uid":501,"version":"v21.5.0"},"stack":"TypeError: Router.use() requires a middleware function but got a Object\n    at Function.use (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:469:13)\n    at routes (/Users/shiv/Desktop/node1/project1/src/routes/index.js:14:10)\n    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/src/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1375:14)\n    at Module._compile (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1434:10)\n    at Object.newLoader [as .js] (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.runMain (node:internal/modules/run_main:142:12)\n    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1375:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1434:10)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)\n    at node:internal/main/run_main_module:28:49","trace":[{"column":13,"file":"/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js","function":"Function.use","line":469,"method":"use","native":false},{"column":10,"file":"/Users/shiv/Desktop/node1/project1/src/routes/index.js","function":"routes","line":14,"method":null,"native":false},{"column":38,"file":"/Users/shiv/Desktop/node1/project1/src/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1375,"method":"_compile","native":false},{"column":24,"file":"/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1434,"method":".js","native":false},{"column":7,"file":"/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1206,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1022,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":142,"method":"runMain","native":false},{"column":12,"file":"/Users/shiv/Desktop/node1/project1/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1375,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1434,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1206,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1022,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":142,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+info: ::1 - - [29/Jan/2024:04:51:03 +0000] "POST /api/v1/users/register HTTP/1.1" 201 42 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:04:51:19 +0000] "POST /api/v1/users/register HTTP/1.1" 400 33 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:04:51:42 +0000] "POST /api/v1/users/register HTTP/1.1" 400 33 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:04:51:44 +0000] "POST /api/v1/users/register HTTP/1.1" 400 33 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:04:52:28 +0000] "POST /api/v1/users/login HTTP/1.1" 400 33 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:04:52:30 +0000] "POST /api/v1/users/login HTTP/1.1" 400 33 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:04:53:13 +0000] "POST /api/v1/users/login HTTP/1.1" 400 33 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:04:53:28 +0000] "POST /api/v1/users/login HTTP/1.1" 400 33 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:04:53:29 +0000] "POST /api/v1/users/login HTTP/1.1" 400 33 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:04:53:48 +0000] "GET /api/v1/users HTTP/1.1" 200 504 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:04:54:21 +0000] "POST /api/v1/users/login HTTP/1.1" 400 33 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:04:54:55 +0000] "POST /api/v1/users/login HTTP/1.1" 401 33 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:04:55:09 +0000] "POST /api/v1/users/login HTTP/1.1" 200 30 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:04:55:27 +0000] "GET /api/v1/users HTTP/1.1" 200 504 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:05:06:06 +0000] "GET /api/v1/users/register HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:05:06:54 +0000] "POST /api/v1/users/register HTTP/1.1" 201 42 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:05:07:08 +0000] "POST /api/v1/users/login HTTP/1.1" 401 32 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:05:07:14 +0000] "POST /api/v1/users/login HTTP/1.1" 401 33 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:05:07:20 +0000] "POST /api/v1/users/login HTTP/1.1" 200 30 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:05:07:27 +0000] "POST /api/v1/users/login HTTP/1.1" 200 30 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:05:07:44 +0000] "POST /api/v1/users/login HTTP/1.1" 200 30 "-" "PostmanRuntime/7.36.1"
+
