@@ -209,3 +209,5 @@ error:
       method - GET 
       IP - ::1
      {"timestamp":"2024-01-29T05:06:06.845Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-29T19:22:44.782Z"}
+info: Connected to the database. {"timestamp":"2024-01-29T19:22:44.869Z"}
