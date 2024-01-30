@@ -1500,3 +1500,99 @@ info: ::1 - - [30/Jan/2024:11:06:03 +0000] "PUT /api/v1/notes/65b8d65cd2c851b92c
 
 info: ::1 - - [30/Jan/2024:11:06:15 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 200 205 "-" "PostmanRuntime/7.36.1"
 
+error: uncaughtException: user is not defined
+ReferenceError: user is not defined
+    at routes (/Users/shiv/Desktop/node1/project1/src/routes/index.js:16:24)
+    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/src/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1375:14)
+    at Module._compile (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1434:10)
+    at Object.newLoader [as .js] (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Function.runMain (node:internal/modules/run_main:142:12)
+    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1375:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1434:10)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Tue Jan 30 2024 16:43:54 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.08154296875,2.14208984375,2.6435546875],"uptime":2064997},"process":{"argv":["node","/Users/shiv/Desktop/node1/project1/src/index.js"],"cwd":"/Users/shiv/Desktop/node1/project1","execPath":"/opt/homebrew/Cellar/node/21.5.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":18281425,"external":21250610,"heapTotal":95780864,"heapUsed":47088240,"rss":154386432},"pid":47878,"uid":501,"version":"v21.5.0"},"stack":"ReferenceError: user is not defined\n    at routes (/Users/shiv/Desktop/node1/project1/src/routes/index.js:16:24)\n    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/src/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1375:14)\n    at Module._compile (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1434:10)\n    at Object.newLoader [as .js] (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.runMain (node:internal/modules/run_main:142:12)\n    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1375:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1434:10)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)\n    at node:internal/main/run_main_module:28:49","trace":[{"column":24,"file":"/Users/shiv/Desktop/node1/project1/src/routes/index.js","function":"routes","line":16,"method":null,"native":false},{"column":38,"file":"/Users/shiv/Desktop/node1/project1/src/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1375,"method":"_compile","native":false},{"column":24,"file":"/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1434,"method":".js","native":false},{"column":7,"file":"/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1206,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1022,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":142,"method":"runMain","native":false},{"column":12,"file":"/Users/shiv/Desktop/node1/project1/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1375,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1434,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1206,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1022,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":142,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+info: ::1 - - [30/Jan/2024:11:14:01 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:11:15:17 +0000] "GET /api/v1/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:11:15:21 +0000] "GET /api/v1/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:11:15:39 +0000] "GET /api/v1/users/login HTTP/1.1" 500 127 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:11:15:59 +0000] "POST /api/v1/users/login HTTP/1.1" 200 30 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:11:19:39 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:13:38:35 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:13:38:50 +0000] "GET /api/v1/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:13:38:58 +0000] "GET /api/v1/users/login HTTP/1.1" 500 127 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:13:39:08 +0000] "POST /api/v1/users/login HTTP/1.1" 500 71 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:13:45:05 +0000] "POST /api/v1/users/login HTTP/1.1" 500 71 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:13:45:07 +0000] "POST /api/v1/users/login HTTP/1.1" 500 71 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:13:46:06 +0000] "POST /api/v1/users/login HTTP/1.1" 200 227 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:13:46:34 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:13:47:00 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 500 52 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:13:47:22 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 500 52 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:13:50:30 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 500 52 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:13:50:33 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 500 52 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:13:50:49 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 500 52 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:13:50:50 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 500 52 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:13:50:51 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 500 52 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:13:51:54 +0000] "GET /api/v1/users/login HTTP/1.1" 500 127 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:13:52:03 +0000] "POST /api/v1/users/login HTTP/1.1" 200 227 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:13:52:38 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 500 52 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:13:59:31 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 500 52 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:13:59:32 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 500 52 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:14:00:58 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 500 52 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:14:01:12 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:14:01:15 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 500 52 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:14:01:57 +0000] "POST /api/v1/users/login HTTP/1.1" 200 227 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:14:02:31 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 500 52 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:14:04:20 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 200 205 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:14:06:09 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:14:06:14 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 200 205 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:15:08:47 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 200 205 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:15:09:54 +0000] "GET /api/v1/notes/newnote HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:15:11:04 +0000] "GET /api/v1/notes/newnote HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:15:13:11 +0000] "POST /api/v1/notes/newnote HTTP/1.1" 201 175 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:15:13:23 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 200 323 "-" "PostmanRuntime/7.36.1"
+

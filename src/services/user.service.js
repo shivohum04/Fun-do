@@ -1,5 +1,7 @@
 import User from '../models/user.model';
-import bcrypt from 'bcrypt';
+import bcrypt, { compare } from 'bcrypt';
+import jwt from 'jsonwebtoken';
+
 
 
 //get all users
@@ -60,7 +62,6 @@ export const registerUser = async (userData) => {
 };
 
 export const loginUser = async (userData) => {
-  // userData should contain { username, password }
   const { username, password } = userData;
 
   const user = await User.findOne({ username });
@@ -69,9 +70,18 @@ export const loginUser = async (userData) => {
     throw new Error('User does not exist');
   }
 
-  if (await bcrypt.compare(password, user.password)) {
-    return 'Login successful';
-  } else {
+  const isMatch = await bcrypt.compare(password, user.password);
+
+  if (!isMatch) {
     throw new Error('Invalid credentials');
   }
+
+  // Generate JWT token
+  const token = jwt.sign(
+    { userId: user._id, username: user.username },
+    process.env.JWT_SECRET, // Ensure you have a JWT_SECRET in your .env file
+    { expiresIn: '10h' } // Token expires in 10 hour
+  );
+
+  return { token };
 };

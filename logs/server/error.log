@@ -1554,3 +1554,890 @@ error:
     method - PUT 
     IP - ::1
    {"timestamp":"2024-01-30T11:01:52.377Z"}
+error: uncaughtException: user is not defined
+ReferenceError: user is not defined
+    at routes (/Users/shiv/Desktop/node1/project1/src/routes/index.js:16:24)
+    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/src/index.js:32:38)
+    at Module._compile (node:internal/modules/cjs/loader:1375:14)
+    at Module._compile (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:117:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1434:10)
+    at Object.newLoader [as .js] (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:121:7)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Function.runMain (node:internal/modules/run_main:142:12)
+    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/node/src/_babel-node.ts:222:12)
+    at Module._compile (node:internal/modules/cjs/loader:1375:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1434:10)
+    at Module.load (node:internal/modules/cjs/loader:1206:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)
+    at node:internal/main/run_main_module:28:49 {"date":"Tue Jan 30 2024 16:43:54 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[2.08154296875,2.14208984375,2.6435546875],"uptime":2064997},"process":{"argv":["node","/Users/shiv/Desktop/node1/project1/src/index.js"],"cwd":"/Users/shiv/Desktop/node1/project1","execPath":"/opt/homebrew/Cellar/node/21.5.0/bin/node","gid":20,"memoryUsage":{"arrayBuffers":18270591,"external":21239736,"heapTotal":95780864,"heapUsed":46992712,"rss":154238976},"pid":47878,"uid":501,"version":"v21.5.0"},"stack":"ReferenceError: user is not defined\n    at routes (/Users/shiv/Desktop/node1/project1/src/routes/index.js:16:24)\n    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/src/index.js:32:38)\n    at Module._compile (node:internal/modules/cjs/loader:1375:14)\n    at Module._compile (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1434:10)\n    at Object.newLoader [as .js] (/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.runMain (node:internal/modules/run_main:142:12)\n    at Object.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/node/src/_babel-node.ts:222:12)\n    at Module._compile (node:internal/modules/cjs/loader:1375:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1434:10)\n    at Module.load (node:internal/modules/cjs/loader:1206:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:1022:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:142:12)\n    at node:internal/main/run_main_module:28:49","timestamp":"2024-01-30T11:13:54.037Z","trace":[{"column":24,"file":"/Users/shiv/Desktop/node1/project1/src/routes/index.js","function":"routes","line":16,"method":null,"native":false},{"column":38,"file":"/Users/shiv/Desktop/node1/project1/src/index.js","function":null,"line":32,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1375,"method":"_compile","native":false},{"column":24,"file":"/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js","function":"Module._compile","line":117,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1434,"method":".js","native":false},{"column":7,"file":"/Users/shiv/Desktop/node1/project1/node_modules/pirates/lib/index.js","function":"Object.newLoader [as .js]","line":121,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1206,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1022,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.runMain","line":142,"method":"runMain","native":false},{"column":12,"file":"/Users/shiv/Desktop/node1/project1/node_modules/@babel/node/src/_babel-node.ts","function":null,"line":222,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1375,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1434,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":1206,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":1022,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":142,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":49,"file":"node:internal/main/run_main_module","function":null,"line":28,"method":null,"native":false}]}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/getnotes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-01-30T11:14:01.652Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "login" (type string) at path "_id" for model "User"
+    at model.Query.exec (/Users/shiv/Desktop/node1/project1/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/Users/shiv/Desktop/node1/project1/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-30T11:15:39.179Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/getnotes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-01-30T11:19:39.899Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/getnotes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-01-30T13:38:35.769Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "login" (type string) at path "_id" for model "User"
+    at model.Query.exec (/Users/shiv/Desktop/node1/project1/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/Users/shiv/Desktop/node1/project1/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-30T13:38:58.466Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/sign.js:111:20)
+    at _callee7$ (/Users/shiv/Desktop/node1/project1/src/services/user.service.js:80:21)
+    at tryCatch (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-30T13:39:08.406Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/sign.js:111:20)
+    at _callee7$ (/Users/shiv/Desktop/node1/project1/src/services/user.service.js:80:21)
+    at tryCatch (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-30T13:45:05.646Z"}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/sign.js:111:20)
+    at _callee7$ (/Users/shiv/Desktop/node1/project1/src/services/user.service.js:80:21)
+    at tryCatch (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-01-30T13:45:07.252Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/getnotes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-01-30T13:46:34.959Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at /Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:171:19
+    at getSecret (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.verify (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:101:10)
+    at _callee$ (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:22:32)
+    at tryCatch (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/shiv/Desktop/node1/project1/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at /Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (/Users/shiv/Desktop/node1/project1/node_modules/raw-body/index.js:231:16)
+    at done (/Users/shiv/Desktop/node1/project1/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/Users/shiv/Desktop/node1/project1/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/getnotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-30T13:47:00.200Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at /Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:171:19
+    at getSecret (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.verify (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:101:10)
+    at _callee$ (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:22:32)
+    at tryCatch (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/shiv/Desktop/node1/project1/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at /Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (/Users/shiv/Desktop/node1/project1/node_modules/raw-body/index.js:231:16)
+    at done (/Users/shiv/Desktop/node1/project1/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/Users/shiv/Desktop/node1/project1/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/getnotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-30T13:47:22.045Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at /Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:171:19
+    at getSecret (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.verify (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:101:10)
+    at _callee$ (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:22:32)
+    at tryCatch (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/shiv/Desktop/node1/project1/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at /Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (/Users/shiv/Desktop/node1/project1/node_modules/raw-body/index.js:231:16)
+    at done (/Users/shiv/Desktop/node1/project1/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/Users/shiv/Desktop/node1/project1/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/getnotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-30T13:50:30.199Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at /Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:171:19
+    at getSecret (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.verify (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:101:10)
+    at _callee$ (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:22:32)
+    at tryCatch (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/shiv/Desktop/node1/project1/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at /Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (/Users/shiv/Desktop/node1/project1/node_modules/raw-body/index.js:231:16)
+    at done (/Users/shiv/Desktop/node1/project1/node_modules/raw-body/index.js:220:7)
+    at IncomingMessage.onEnd (/Users/shiv/Desktop/node1/project1/node_modules/raw-body/index.js:280:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/notes/getnotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-30T13:50:33.841Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at /Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:171:19
+    at getSecret (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.verify (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:101:10)
+    at _callee$ (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:22:32)
+    at tryCatch (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/shiv/Desktop/node1/project1/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at jsonParser (/Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:142:6)
+    at xXssProtectionMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-xss-protection/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at referrerPolicyMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/referrer-policy/index.js:24:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-permitted-cross-domain-policies/index.js:15:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xContentTypeOptionsMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-content-type-options/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xDownloadOptionsMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-download-options/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at strictTransportSecurityMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/strict-transport-security/index.js:34:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6) 
+    url - /api/v1/notes/getnotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-30T13:50:49.672Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at /Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:171:19
+    at getSecret (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.verify (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:101:10)
+    at _callee$ (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:22:32)
+    at tryCatch (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/shiv/Desktop/node1/project1/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at jsonParser (/Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:142:6)
+    at xXssProtectionMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-xss-protection/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at referrerPolicyMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/referrer-policy/index.js:24:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-permitted-cross-domain-policies/index.js:15:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xContentTypeOptionsMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-content-type-options/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xDownloadOptionsMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-download-options/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at strictTransportSecurityMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/strict-transport-security/index.js:34:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6) 
+    url - /api/v1/notes/getnotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-30T13:50:50.529Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at /Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:171:19
+    at getSecret (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.verify (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:101:10)
+    at _callee$ (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:22:32)
+    at tryCatch (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/shiv/Desktop/node1/project1/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at jsonParser (/Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:142:6)
+    at xXssProtectionMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-xss-protection/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at referrerPolicyMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/referrer-policy/index.js:24:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-permitted-cross-domain-policies/index.js:15:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xContentTypeOptionsMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-content-type-options/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xDownloadOptionsMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-download-options/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at strictTransportSecurityMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/strict-transport-security/index.js:34:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6) 
+    url - /api/v1/notes/getnotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-30T13:50:51.040Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "login" (type string) at path "_id" for model "User"
+    at model.Query.exec (/Users/shiv/Desktop/node1/project1/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/Users/shiv/Desktop/node1/project1/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-30T13:51:54.553Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at /Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:171:19
+    at getSecret (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.verify (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:101:10)
+    at _callee$ (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:22:32)
+    at tryCatch (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/shiv/Desktop/node1/project1/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at jsonParser (/Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:142:6)
+    at xXssProtectionMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-xss-protection/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at referrerPolicyMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/referrer-policy/index.js:24:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-permitted-cross-domain-policies/index.js:15:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xContentTypeOptionsMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-content-type-options/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xDownloadOptionsMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-download-options/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at strictTransportSecurityMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/strict-transport-security/index.js:34:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6) 
+    url - /api/v1/notes/getnotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-30T13:52:38.306Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at /Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:171:19
+    at getSecret (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.verify (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:101:10)
+    at _callee$ (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:22:32)
+    at tryCatch (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/shiv/Desktop/node1/project1/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at jsonParser (/Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:142:6)
+    at xXssProtectionMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-xss-protection/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at referrerPolicyMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/referrer-policy/index.js:24:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-permitted-cross-domain-policies/index.js:15:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xContentTypeOptionsMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-content-type-options/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xDownloadOptionsMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-download-options/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at strictTransportSecurityMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/strict-transport-security/index.js:34:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6) 
+    url - /api/v1/notes/getnotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-30T13:59:31.688Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at /Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:171:19
+    at getSecret (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.verify (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:101:10)
+    at _callee$ (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:22:32)
+    at tryCatch (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/shiv/Desktop/node1/project1/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at jsonParser (/Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:142:6)
+    at xXssProtectionMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-xss-protection/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at referrerPolicyMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/referrer-policy/index.js:24:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-permitted-cross-domain-policies/index.js:15:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xContentTypeOptionsMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-content-type-options/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xDownloadOptionsMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-download-options/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at strictTransportSecurityMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/strict-transport-security/index.js:34:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6) 
+    url - /api/v1/notes/getnotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-30T13:59:32.600Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at /Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:171:19
+    at getSecret (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.verify (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:101:10)
+    at _callee$ (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:22:32)
+    at tryCatch (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/shiv/Desktop/node1/project1/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at jsonParser (/Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:142:6)
+    at xXssProtectionMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-xss-protection/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at referrerPolicyMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/referrer-policy/index.js:24:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-permitted-cross-domain-policies/index.js:15:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xContentTypeOptionsMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-content-type-options/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xDownloadOptionsMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-download-options/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at strictTransportSecurityMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/strict-transport-security/index.js:34:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6) 
+    url - /api/v1/notes/getnotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-30T14:00:58.049Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/getnotes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-01-30T14:01:12.277Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at /Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:171:19
+    at getSecret (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.verify (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:101:10)
+    at _callee$ (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:22:32)
+    at tryCatch (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/shiv/Desktop/node1/project1/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at jsonParser (/Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:142:6)
+    at xXssProtectionMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-xss-protection/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at referrerPolicyMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/referrer-policy/index.js:24:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-permitted-cross-domain-policies/index.js:15:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xContentTypeOptionsMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-content-type-options/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xDownloadOptionsMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-download-options/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at strictTransportSecurityMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/strict-transport-security/index.js:34:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6) 
+    url - /api/v1/notes/getnotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-30T14:01:15.784Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at /Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:171:19
+    at getSecret (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:97:14)
+    at Object.verify (/Users/shiv/Desktop/node1/project1/node_modules/jsonwebtoken/verify.js:101:10)
+    at _callee$ (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:22:32)
+    at tryCatch (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:133:17)
+    at Generator.next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:22:9)
+    at /Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:27:7
+    at new Promise (<anonymous>)
+    at apply (/Users/shiv/Desktop/node1/project1/node_modules/@babel/runtime/helpers/asyncToGenerator.js:19:12)
+    at userAuth (/Users/shiv/Desktop/node1/project1/src/middlewares/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at Function.handle (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:175:3)
+    at router (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:47:12)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at logger (/Users/shiv/Desktop/node1/project1/node_modules/morgan/index.js:144:5)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at jsonParser (/Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/types/json.js:110:7)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at urlencodedParser (/Users/shiv/Desktop/node1/project1/node_modules/body-parser/lib/types/urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:328:13)
+    at /Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:286:9
+    at Function.process_params (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:346:12)
+    at next (/Users/shiv/Desktop/node1/project1/node_modules/express/lib/router/index.js:280:10)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:142:6)
+    at xXssProtectionMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-xss-protection/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at referrerPolicyMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/referrer-policy/index.js:24:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-permitted-cross-domain-policies/index.js:15:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xContentTypeOptionsMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-content-type-options/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at xDownloadOptionsMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/x-download-options/index.js:6:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6)
+    at strictTransportSecurityMiddleware (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/middlewares/strict-transport-security/index.js:34:3)
+    at internalNext (/Users/shiv/Desktop/node1/project1/node_modules/helmet/dist/index.js:145:6) 
+    url - /api/v1/notes/getnotes 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2024-01-30T14:02:31.029Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/notes/getnotes 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2024-01-30T14:06:09.985Z"}
