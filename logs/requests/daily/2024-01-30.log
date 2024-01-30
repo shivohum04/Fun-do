@@ -38,3 +38,49 @@ info: ::1 - - [30/Jan/2024:09:26:59 +0000] "POST /api/v1/users/register HTTP/1.1
 
 info: ::1 - - [30/Jan/2024:09:27:14 +0000] "POST /api/v1/users/login HTTP/1.1" 200 30 "-" "PostmanRuntime/7.36.1"
 
+info: ::1 - - [30/Jan/2024:09:50:32 +0000] "POST /api/v1/users/login HTTP/1.1" 200 30 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:09:50:48 +0000] "POST /api/v1/users/login HTTP/1.1" 200 30 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:10:44:13 +0000] "POST /api/v1/users/getnotes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:10:44:15 +0000] "POST /api/v1/users/getnotes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:10:44:26 +0000] "GET /api/v1/users/getnotes HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:10:44:28 +0000] "GET /api/v1/users/getnotes HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:10:44:30 +0000] "GET /api/v1/users/getnotes HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:10:45:44 +0000] "GET /api/v1/users/notes HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:10:45:46 +0000] "GET /api/v1/users/notes HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:10:46:06 +0000] "GET /api/v1/notes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:10:46:15 +0000] "GET /api/v1/users/notes HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:10:47:27 +0000] "GET /api/v1/users/newnote HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:10:47:35 +0000] "GET /api/v1/newnote HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:10:49:08 +0000] "GET /api/v1/notes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:10:49:18 +0000] "GET /api/v1/users/notes HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:10:52:29 +0000] "GET /api/v1/users/notes HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:10:52:53 +0000] "GET /api/v1/users/notes HTTP/1.1" 500 127 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:10:53:03 +0000] "GET /api/v1/notes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:10:53:11 +0000] "POST /api/v1/notes HTTP/1.1" 404 47 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:10:53:25 +0000] "GET /api/v1/users/notes HTTP/1.1" 500 127 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:10:54:47 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 200 67 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:10:58:36 +0000] "POST /api/v1/notes/newnote HTTP/1.1" 201 179 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:10:59:00 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 200 188 "-" "PostmanRuntime/7.36.1"
+
