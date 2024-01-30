@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+logs/
+
+# Build directories
+build/
+dist/
+
+# Other common directories to ignore
+tmp/
+temp/
