@@ -74,3 +74,41 @@ info: ::1 - - [29/Jan/2024:05:07:27 +0000] "POST /api/v1/users/login HTTP/1.1" 2
 
 info: ::1 - - [29/Jan/2024:05:07:44 +0000] "POST /api/v1/users/login HTTP/1.1" 200 30 "-" "PostmanRuntime/7.36.1"
 
+info: ::1 - - [29/Jan/2024:05:38:58 +0000] "GET /api/v1/users HTTP/1.1" 200 672 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:05:39:51 +0000] "GET /api/v1/users/login HTTP/1.1" 400 56 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:05:39:55 +0000] "POST /api/v1/users/login HTTP/1.1" 200 30 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:05:40:00 +0000] "POST /api/v1/users/login HTTP/1.1" 401 33 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:06:17:17 +0000] "GET /api/v1/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Jan/2024:06:17:25 +0000] "GET /api/v1/ HTTP/1.1" 200 9 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:06:17:31 +0000] "GET /api/v1/users HTTP/1.1" 200 672 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:06:18:20 +0000] "POST /api/v1/users/login HTTP/1.1" 200 30 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:06:19:10 +0000] "GET /ws HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Jan/2024:06:19:17 +0000] "GET /ws HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Jan/2024:06:20:24 +0000] "GET /api/v1/users HTTP/1.1" 200 672 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Jan/2024:06:20:30 +0000] "GET /api/v1/login HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Jan/2024:06:26:53 +0000] "POST /api/v1/users/login HTTP/1.1" 200 30 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:06:26:58 +0000] "POST /api/v1/users HTTP/1.1" 500 91 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:06:27:04 +0000] "GET /api/v1/users HTTP/1.1" 200 672 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:06:27:26 +0000] "POST /api/v1/users/login HTTP/1.1" 401 33 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:06:27:38 +0000] "POST /api/v1/users/login HTTP/1.1" 401 32 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [29/Jan/2024:06:27:43 +0000] "GET /ws HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+
+info: ::1 - - [29/Jan/2024:06:27:50 +0000] "GET /ws HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+

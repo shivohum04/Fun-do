@@ -20,8 +20,8 @@ router.put('/:_id', userController.updateUser);
 
 //route to delete a single user by their user id
 router.delete('/:_id', userController.deleteUser);
-router.post('/register',userController.registerUser);
-router.post('/login',userController.loginUser);
+router.post('/register',userController.registerUserController);
+router.post('/login',userController.loginUserController );
 /*
 //route to post(register) new user
 router.post('/register', async (req, res) => {

@@ -1,5 +1,6 @@
 import HttpStatus from 'http-status-codes';
 import * as UserService from '../services/user.service';
+import { registerUser, loginUser } from '../services/user.service';
 import User from '../models/user.model';
 import bcrypt from 'bcrypt';
 
@@ -99,44 +100,41 @@ export const deleteUser = async (req, res, next) => {
     next(error);
   }
 };
-export const registerUser = async (req, res, next) => {
+
+
+
+/**
+ * Controller to register a new user
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const registerUserController = async (req, res, next) => {
   try {
     const { username, email, password } = req.body;
 
-    // existing user
-    const existingUser = await User.findOne({ email });
-    if (existingUser) {
-      return res.status(HttpStatus.BAD_REQUEST).json({ message: 'User already exists' });
-    }
+    await registerUser({ username, email, password });
 
-    // encrypting the   password 
-    const hashedPassword = await bcrypt.hash(password, 10);
-    // new user
-    const newUser = new User({ username, email, password: hashedPassword });
-    await newUser.save();
     res.status(HttpStatus.CREATED).json({ message: 'User registered successfully' });
   } catch (error) {
     next(error);
   }
 };
 
-export const loginUser = async (req, res, next) => {
+/**
+ * Controller to log in a user
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const loginUserController = async (req, res, next) => {
   try {
     const { username, password } = req.body;
-    const user = await User.findOne({ username });
 
-    if (!user) {
-      return res.status(HttpStatus.UNAUTHORIZED).json({ message: 'user doesnot exist' });
-    }
+    const message = await loginUser({ username, password });
 
-    if (await bcrypt.compare(password, user.password)) {
-      res.json({ message: 'Login successful' });
-      
-    } else {
-      res.status(HttpStatus.UNAUTHORIZED).json({ message: 'Invalid credentials' });
-    }
+    res.json({ message });
   } catch (error) {
     next(error);
   }
 };
-
