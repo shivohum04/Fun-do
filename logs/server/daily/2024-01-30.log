@@ -646,3 +646,17 @@ error:
     method - GET 
     IP - ::1
    {"timestamp":"2024-01-30T10:53:25.083Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: undefined }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (/Users/shiv/Desktop/node1/project1/node_modules/mongoose/lib/query.js:4498:21)
+    at model.Query.Query.then (/Users/shiv/Desktop/node1/project1/node_modules/mongoose/lib/query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/notes/updatenote 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2024-01-30T11:01:52.377Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T11:04:41.204Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T11:04:41.221Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-01-30T11:04:46.893Z"}
+info: Connected to the database. {"timestamp":"2024-01-30T11:04:46.902Z"}

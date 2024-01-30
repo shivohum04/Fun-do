@@ -10,9 +10,9 @@ noterouter.get('/getnotes', noteController.getAllNotes);
 noterouter.post('/newnote', noteController.newNote);
 
 //route to update a single user by their user id
-noterouter.put('/updatenote', noteController.updateNote);
+noterouter.put('/:_id', noteController.updateNote);
 
 //route to delete a single note 
-noterouter.delete('/deletenote', noteController.deleteNote);
+noterouter.delete('/:_id', noteController.deleteNote);
 
 export default noterouter;

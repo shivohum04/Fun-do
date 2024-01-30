@@ -1490,3 +1490,13 @@ info: ::1 - - [30/Jan/2024:10:58:36 +0000] "POST /api/v1/notes/newnote HTTP/1.1"
 
 info: ::1 - - [30/Jan/2024:10:59:00 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 200 188 "-" "PostmanRuntime/7.36.1"
 
+info: ::1 - - [30/Jan/2024:11:01:52 +0000] "PUT /api/v1/notes/updatenote HTTP/1.1" 500 140 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:11:05:18 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 200 188 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:11:05:48 +0000] "PUT /api/v1/notes/65b8d65cd2c851b92cd480df HTTP/1.1" 202 183 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:11:06:03 +0000] "PUT /api/v1/notes/65b8d65cd2c851b92cd480df HTTP/1.1" 202 200 "-" "PostmanRuntime/7.36.1"
+
+info: ::1 - - [30/Jan/2024:11:06:15 +0000] "GET /api/v1/notes/getnotes HTTP/1.1" 200 205 "-" "PostmanRuntime/7.36.1"
+
